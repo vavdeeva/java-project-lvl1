@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Engine {
 
+    public static final int NUMBER_OF_TRY = 3;
+    public static final int MAX_VALUE = 100;
 
     public static String greeting(String rule) {
         System.out.println("Welcome to the Brain Games!");

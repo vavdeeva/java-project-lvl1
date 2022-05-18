@@ -4,8 +4,6 @@ import hexlet.code.Engine;
 import java.util.Random;
 public class Calc {
 
-    static final int NUMBER_OF_TRY = 3;
-    static final int MAX_VALUE = 100;
     static final int NUMBER_OF_OPERATIONS = 3;
 
     public static void runGame() {
@@ -15,10 +13,10 @@ public class Calc {
         String[] operations = new String[] {"-", "+", "*"};
         boolean hasError = false;
 
-        for (int i = 0; i < Calc.NUMBER_OF_TRY; i++) {
+        for (int i = 0; i < Engine.NUMBER_OF_TRY; i++) {
             Random rand = new Random();
-            int number1 = rand.nextInt(Calc.MAX_VALUE);
-            int number2 = rand.nextInt(Calc.MAX_VALUE);
+            int number1 = rand.nextInt(Engine.MAX_VALUE);
+            int number2 = rand.nextInt(Engine.MAX_VALUE);
 
             Random rand1 = new Random();
             int number3 = rand1.nextInt(1, Calc.NUMBER_OF_OPERATIONS);

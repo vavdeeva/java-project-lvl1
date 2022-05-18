@@ -4,19 +4,15 @@ import hexlet.code.Engine;
 import java.util.Random;
 
 public class Even {
-
-    static final int NUMBER_OF_TRY = 3;
-    static final int MAX_VALUE = 100;
-
     public static void runGame() {
         String rule = "Answer 'yes' if the number is even, otherwise answer 'no'.";
         String name = Engine.greeting(rule);
 
         boolean hasError = false;
 
-        for (int i = 0; i < Even.NUMBER_OF_TRY; i++) {
+        for (int i = 0; i < Engine.NUMBER_OF_TRY; i++) {
             Random rand = new Random();
-            int number = rand.nextInt(Even.MAX_VALUE);
+            int number = rand.nextInt(Engine.MAX_VALUE);
 
             String question = Integer.toString(number);
 

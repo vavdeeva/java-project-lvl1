@@ -11,10 +11,10 @@ public class GCD {
 
         boolean hasError = false;
 
-        for (int i = 0; i < Calc.NUMBER_OF_TRY; i++) {
+        for (int i = 0; i < Engine.NUMBER_OF_TRY; i++) {
             Random rand = new Random();
-            int number1 = rand.nextInt(1, Calc.MAX_VALUE);
-            int number2 = rand.nextInt(1, Calc.MAX_VALUE);
+            int number1 = rand.nextInt(1, Engine.MAX_VALUE);
+            int number2 = rand.nextInt(1, Engine.MAX_VALUE);
 
             int min = Integer.min(number1, number2);
             int gcd = 1;
