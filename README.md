@@ -6,3 +6,6 @@
 ![Java CI](https://github.com/vavdeeva/java-project-lvl1/workflows/Java%20CI/badge.svg)
 
 ![image](https://user-images.githubusercontent.com/25840287/169129748-d81f515a-5b0e-43df-9e47-a09bf1e62dc1.png)
+
+![image](https://user-images.githubusercontent.com/25840287/169140316-b03b6226-d141-48bc-8b50-1ed4aab46ba5.png)
+
